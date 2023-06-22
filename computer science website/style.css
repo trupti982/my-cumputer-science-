@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+body {
+    margin: 0px;
+    color: white;
+    background-color: #030303;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main-page-content {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#top-nav-bar {
+    background-color: #131313d8;
+    color: white;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    font-size: 17px;
+}
+#top-nav-bar #title {
+    font-weight: bold;
+    margin-left: -5px;
+    margin-right: 10px;
+}
+.nav-bar-link, #computer science {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    padding: 10px;
+    border-radius: 100px;
+    color: black;
+    background-color: white;
+}
+.nav-bar-link:computer science education {
+    color: rgb(122, 27, 199);
+    cursor: pointer;
+    box-shadow: 3px 5px 10px 3px rgb(31, 31, 31);
+}
+#heading_container {
+    color: rgb(247, 240, 240);
+    background-color: rgb(126, 39, 177);
+    background-image: url("resources/42.jpg");
+    box-shadow: 3px 5px 10px 3px rgb(15, 15, 15);
+    padding: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Sofia", sans-serif;
+}
+#heading_container h1 {
+    font-size: 50px;
+}
+#links, #about-me {
+    color: white;
+    background: #353535;
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 3px 5px 10px 3px rgb(15, 15, 15);
+}
+.div-heading {
+    font-size: 21px;
+}
+#footer {
+    background-color: #232323;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+}
